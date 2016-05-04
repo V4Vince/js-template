@@ -10,6 +10,7 @@ As a user I want to be able to write and post stories to my account. I want to a
 PROBLEMS
 
 -Refreshing page without reloading after GET, POST, PATCH AND DELETE
+
 -Populating the stories to the page with the newest being posted to the top
 
 
