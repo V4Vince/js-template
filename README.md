@@ -3,15 +3,18 @@ This app will allow users to write and post short stories to a database. The use
 
 
 USER STORIES
+
 As a user I want to be able to write and post stories to my account. I want to also be able to edit and delete.
 
 
-PROBLEMS:
+PROBLEMS
+
 -Refreshing page without reloading after GET, POST, PATCH AND DELETE
 -Populating the stories to the page with the newest being posted to the top
 
 
 APPROACH
+
 Used javascript for the front end to register user clicks and send information back and fourth from the back end.
 
 Used ruby on rails for the backend to save information into the database and to serve up it up to the front end.
