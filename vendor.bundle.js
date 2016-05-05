@@ -9970,11 +9970,7 @@
 	    $('#sign-in-button').html("<a>Sign-in</a>");
 	  }
 	};
-	// const hideAlert = (data) => {
-	//   if (data === true) {
-	//     $('.alert-notification').addClass("hidden");
-	//   }
-	// };
+
 	var hideAlert = function hideAlert() {
 	  $('.alert-notification').addClass("hidden");
 	};
@@ -9992,15 +9988,19 @@
 	var closeSignInModal = function closeSignInModal() {
 	  $('#my-sign-in-modal').modal('toggle');
 	};
+
 	var closeSignUpModal = function closeSignUpModal() {
 	  $('#my-sign-up-modal').modal('toggle');
 	};
+
 	var closeWriteStoryModal = function closeWriteStoryModal() {
 	  $('#write-a-story-modal').modal('toggle');
 	};
+
 	var showAlert = function showAlert(text) {
 	  $('.alert-notification').removeClass("hidden").html(text);
 	};
+
 	var closeOptionModal = function closeOptionModal() {
 	  $('#options-modal-on-click').modal('toggle');
 	};

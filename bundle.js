@@ -271,7 +271,7 @@ webpackJsonp([0],[
 	'use strict';
 
 	var app = {
-	  link: 'http://localhost:3000'
+	  link: 'https://storylibrary.herokuapp.com'
 	};
 	module.exports = app;
 
