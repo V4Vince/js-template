@@ -1,6 +1,6 @@
 'use strict';
 
 const app = {
-  link: 'http://localhost:3000'
+  link: 'https://storylibrary.herokuapp.com'
 };
 module.exports = app;

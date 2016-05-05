@@ -10,14 +10,9 @@ const hideSignUp = () => {
     $('#sign-in-button').html("<a>Sign-in</a>");
   }
 };
-// const hideAlert = (data) => {
-//   if (data === true) {
-//     $('.alert-notification').addClass("hidden");
-//   }
-// };
+
 const hideAlert = () => {
     $('.alert-notification').addClass("hidden");
-
 };
 
 const promptUserLogin = (data) => {
@@ -33,15 +28,19 @@ const promptUserLogin = (data) => {
 const closeSignInModal = () => {
   $('#my-sign-in-modal').modal('toggle');
 };
+
 const closeSignUpModal = () => {
   $('#my-sign-up-modal').modal('toggle');
 };
+
 const closeWriteStoryModal = () => {
   $('#write-a-story-modal').modal('toggle');
 };
+
 const showAlert = (text) => {
   $('.alert-notification').removeClass("hidden").html(text);
 };
+
 const closeOptionModal = () => {
   $('#options-modal-on-click').modal('toggle');
 };
@@ -74,7 +73,6 @@ const populateTitles = (data) => {
 const depopulateTitles = () => {
   $('.panel-title').remove();
   $('.panel-body').remove();
-
 };
 
 
