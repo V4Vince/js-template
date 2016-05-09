@@ -1,3 +1,4 @@
+API: https://storylibrary.herokuapp.com/
 
 This app will allow users to write and post short stories to a database. The user will be able to read edit and delete their stories. Later features will be added to catagorize each story by genre. Additional features will include being able to read stories posted by other users and rate them. Top rated stories will appear at the top of the feed.
 
